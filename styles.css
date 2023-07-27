@@ -14,7 +14,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 550;
     color:#1D3557;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #hero-image {
@@ -27,43 +29,58 @@ body {
 #hero-text {
     color: #FFFFFF;
     padding:130px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #hero-title {
     size:32px;
     background-color:#1D3557;
     border-radius:8px;
+    padding: 5px 10px;
 }
 #hero-subtitle {
     size:18px;
     line-height:22px;
     background-color: #457B9D;
     border-radius:8px;
-
+    padding: 5px 10px;
 }
 img {
     width: 100px;
     height:100px;
     border-radius:50%;
 }
+#activity-list {
+    margin-top: 40px;
+    margin-bottom:40px;
+   
+}
+.activity {
+    margin:30px;
+}
 .activities {
     display:flex;
+    
 }
 .activity-title {
     font-size:16px;
     font-weight:700;
+    width:200px;
 }
 .activity-text {
     font-size:16px;
     font-weight:400;
+    width:200px;
 }
 #guide-section {
     background-color: #A8DADC;
     width:400px;
     height:300px;
     display:flex;
-    margin-left:160px;
+    margin-top:30px;
     border-radius:10px;
+
 }
 .guide-img {
     border-radius:10px;
